@@ -1,7 +1,6 @@
 from typing import List
 
 
-# 查找
 
 def list_find(str_list):
     print(str_list)
