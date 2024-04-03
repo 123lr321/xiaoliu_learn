@@ -1,2 +1,13 @@
-nums=[1,2,3,13,2]
-nums.sort()
+
+def MyGenerator():
+    for i in range(1,10):
+        value=yield i
+        yield value
+
+gen=MyGenerator()
+print(next(gen))
+print(gen.send("I am Value"))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))

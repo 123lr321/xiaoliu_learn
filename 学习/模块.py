@@ -18,9 +18,8 @@
 调包默认执行init内函数且默认导入init函数
 for 包 import *表示可以使用包内init文件中__all__【】中的模块
 """
-import 力扣
-from 力扣.困于环中的机器人 import is_robot_bounded
-import test
+from 力扣 import is_robot_bounded
+
 print(is_robot_bounded("GGLLLGG"))
 import pickle
 

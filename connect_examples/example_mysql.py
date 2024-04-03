@@ -39,7 +39,7 @@ def test_del():
 def test_select():
     t_select_list=[]
     cno = input('请输入需查询班级编号:')
-    conn = pymysql.connect(host='192.168.226.204', port=3306,
+    conn = pymysql.connect(host='192.168.188.204', port=3306,
                            user='root', password='liu0325',
                            db='liutest', charset='utf8')
     try:
